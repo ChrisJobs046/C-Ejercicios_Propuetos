@@ -13,9 +13,11 @@ namespace Ejercicio_10
             do{
 
                 if(numero == 0){
+                    numero++;
                 }
                 
-            }while(numero >= 10);
+            }while(numero > 11);
+            Console.WriteLine(numero);
             Console.ReadKey();
             
         }
