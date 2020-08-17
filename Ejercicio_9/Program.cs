@@ -6,13 +6,15 @@ namespace Ejercicio_9
     {
         static void Main(string[] args)
         {
-            int i = 10;
-            while(i >26){
+            int i = 26;
+            while(i <=10){
+
+
                 if(i % 2==0){
                     i--;
                 }
+                Console.Write(i);
             }
-            Console.WriteLine(i);
             Console.ReadKey();
         }
         

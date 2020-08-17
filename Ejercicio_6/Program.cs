@@ -17,7 +17,7 @@ namespace Ejercicio_6
             if(numero1 != 0 ){
                 Console.Write("Uno de los numeros es positivo");
             }
-            else if(numero1 > 0 & numero2 > 0){
+            else if(numero1 > 0 | numero2 > 0){
                 Console.Write("Los dos numeros son positivos");
             }
             else{
