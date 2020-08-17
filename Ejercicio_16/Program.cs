@@ -47,10 +47,10 @@ namespace Ejercicio_16
 
         static void Main(string[] args)
         {
-            Vector v = new Vector();
-            v.Cargar();
-            v.Ordenar();
-            v.Mostrar();
+            Program P = new Program();
+            P.Cargar();
+            P.Ordenar();
+            P.Mostrar();
         }
     }
 }

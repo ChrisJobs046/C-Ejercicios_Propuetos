@@ -14,6 +14,7 @@ namespace Ejercicio_15
             Console.Write("Cuantos elementos desea cargar: ");
             string linea;
             linea = Console.ReadLine();
+            int n = int.Parse(linea);
             vec = new int[n];
             for(int i =0; i < vec.Length; i++){
                 Console.Write("Ingrese el componente : ");
@@ -53,10 +54,10 @@ namespace Ejercicio_15
 
         static void Main(string[] args)
         {
-            PruebaVector pv = new PruebaVector();
-            pv.Cargar();
-            pv.MenorElemento();
-            pv.RepiteMenor();
+            Program P = new Program();
+            P.Cargar();
+            P.MenorElemento();
+            P.RepiteMenor();
         }
     }
 }
